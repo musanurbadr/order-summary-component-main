@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,200;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,200;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca:wght@400;700&family=Outfit:wght@300;600;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+--Pale : hsl(225, 100%, 94%);
+--Bright : hsl(245, 75%, 52%);
+--Very: hsl(225, 100%, 98%);
+--Desaturated : hsl(224, 23%, 55%);
+--Dark : hsl(223, 47%, 23%);
+}
+body {
+    background: var(--Pale);
+    background-image:url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+}
+.contenir .immg{
+    margin: 0% ;
+    border-top-left-radius: 13px; /* Sol alt köşeyi yuvarlak */
+    border-top-right-radius: 13px; /* Sağ alt köşeyi yuvarlak */    
+    width: 100%;
+}
+
+.card{
+    background-color: var(--Very);
+    width: 25%;
+    margin: 5% auto;
+    border-radius: 15px;
+    height: 100%;
+    
+}
+
+h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+    font-weight: 650;
+
+    margin: 20px 0px 0px 18%;
+}
+.pa  {
+    color:rgb(149, 147, 147);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    padding: 12px 16px;
+}
+.main {
+    font-family: 'Outfit', sans-serif;
+    margin:3% 8% 12%;
+    background-color: rgb(212, 212, 212);
+    border-radius: 10px;
+     height: 75px;
+}
+img.photo {
+    width: 13%;
+    height: 48%;
+    position: relative;
+    left: 4%;
+    bottom: -19px;
+}
+
+.text p {
+    margin: -15% 37% 6%; 
+    font-weight: 900;
+    position: relative;
+    right: 34%
+}
+p.paragrph {
+    position: relative;
+    left: 25%;
+    font-weight: 900;
+    bottom: 30px;
+}
+.text{
+    position: relative;
+    left: 25%;
+    top: -22px;
+    color: rgb(149, 147, 147);
+}
+a{
+    position: relative;
+    font-weight: 600;
+    font-size: 21px;
+    bottom: 75%;
+    left: 207px;
+    right: 12px;
+    font-size: 14px;
+}
+.buttn button{
+    font-family: 'Outfit', sans-serif;
+    margin:-9% 38% 8% 8% ;
+    width: 84%;
+    height:40px;
+    background-color: blue;
+    border-radius: 8px;
+    border: none;
+    color: wheat;
+    font-weight: 520;
+    box-shadow: 2px 5px 17px grey;
+}
+
+.buttn .over{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 520;
+    font-size:13px;
+    color: rgb(113, 113, 113);
+    padding: 1% 0% 8% 35%;
+}
