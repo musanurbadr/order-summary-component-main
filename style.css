@@ -108,3 +108,16 @@ a{
     color: rgb(113, 113, 113);
     padding: 1% 0% 8% 35%;
 }
+
+@media only screen and (max-width: 375px) {
+    
+.card{
+    background-color: var(--Very);
+    width: 88%;
+    margin: 8% auto;
+    border-radius: 15px;
+    height: 100%;
+    
+}
+
+}
